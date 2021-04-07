@@ -1,0 +1,798 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+body{
+    font-family: 'ChulaNarak',sans-serif;
+    background-color: black;
+}
+body header .navbar-inverse .navbar-nav li a.active{
+    color: #fff;
+    background-color: black;
+}
+body header .navbar-inverse{
+    background-color: black;
+}
+body .logo{
+    width: 88px;
+    height: 56px ;
+    margin-top: 0px;
+    text-align: center;
+    float: right;
+    margin-right: 120px ;
+
+}
+body .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+body .navbar-toggle{
+    float: left;
+}
+body .input-group{
+    float: right;
+}
+body .form-outline{
+    border-radius: 30px;
+}
+body .navbar-inverse .navbar-toggle {
+    border-color: #D1B555;
+}
+body .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #D1B555;
+}
+body .navbar-inverse .navbar-nav>li>a:hover {
+    color: #D1B555;
+}
+.container{
+    background-color: black;
+}
+footer{
+    background-color:black ;
+}
+section{
+    background-color: black;
+}
+.d-flex-1{
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+/* contact */
+.section-header{
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+    background-color: black;
+    font-family: 'chulanarak';
+    margin-top: 100px;
+    word-spacing :150px;
+}
+.section-header a{
+    color: white;
+}
+
+.section-header a:hover{
+    color: #D1B555;
+}
+.map{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.map h4{
+    font-family: 'chulanarak';
+    color: #A7A7A7;
+    font-size: 35px;
+}
+.media{
+    /* border-bottom: #999 solid 1px; */
+    padding: 20px 0;
+    list-style: none;
+}
+.media-icon{
+    float: left;
+    font-size: 30px;
+    color: #A7A7A7;
+    width: 55px;
+    text-align: center;
+    margin-right: 5px;
+}
+.media-body{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.media-text{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #A7A7A7;
+    line-height: 1.3;
+    font-family: 'chulanarak';
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+    }
+.recomment{ 
+    margin-top: -250px;
+}
+.recomment h5{
+    font-family: 'chulanarak';
+    font-size: 35px;
+    color: #A7A7A7 ;
+}
+.box-comment p{
+    font-family: 'chulanarak';
+    font-size: 25px;
+    color: #A7A7A7 ;
+}
+.form-group{
+    width: 325px;
+}
+.row-1{
+    width: 300px;
+}
+.row-2{
+    width: 300px;
+    margin-top: 20px;
+    float: left;
+}
+.col-1{
+    width: 325px;
+}
+.col-2{
+    width: 325px;
+    margin-top: 20px;
+}
+.col-auto{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-primary {
+    margin-top: 30px;
+    color: #fff;
+    background-color: #D1B555;
+    border-color: #D1B555;
+}
+
+.journey{
+    background-color: #29292977;
+    margin-top: -150px;
+}
+.car-icon{
+    float: left;
+    font-size: 30px;
+    color: #A7A7A7;
+    width: 55px;
+    text-align: center;
+    margin-right: 5px;
+}
+.car{
+    margin-top: 200px;
+}
+.car h1{
+    font-family: 'chulanarak';
+    font-size: 35px;
+    color: #A7A7A7;
+}
+.car h2{
+    font-family: 'chulanarak';
+    font-size: 30px;
+    color: #D1B555;
+}
+.car h3{
+    font-family: 'chulanarak';
+    font-size: 25px;
+    color: #A7A7A7;
+    margin-top: 10px;
+}
+.car p{
+    font-family: 'chulanarak';
+    font-size: 20px;
+    color: #A7A7A7;
+}
+.bus{
+    margin-top: 50px;
+}
+.bus h2{
+    font-family: 'chulanarak';
+    font-size: 30px;
+    color: #D1B555;
+}
+.bus h3{
+    font-family: 'chulanarak';
+    font-size: 25px;
+    color: #A7A7A7;
+
+}
+.bus p{
+    font-family: 'chulanarak';
+    font-size: 20px;
+    color: #A7A7A7;
+}
+.van{
+    margin-top: 50px;
+}
+.van h2{
+    font-family: 'chulanarak';
+    font-size: 30px;
+       color: #D1B555;
+}
+.van p{
+    font-family: 'chulanarak';
+    font-size: 20px;
+    color: #A7A7A7;
+}
+/* -------footer--------- */
+.center{
+    width: 100px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .footer-menu-Theater{
+    float: left;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-family: 'chulanarak';
+    font-size: 15px;
+    color: #707070;
+  }
+  .footer-menu-Theater h3{
+    font-family: 'chulanarak';
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .footer-menu-Ticket{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'chulanarak';
+    font-size: 15px;
+    color: #707070;
+  }
+  .footer-menu-Ticket h3{
+    font-family: 'chulanarak';
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .footer-menu-Contact{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'chulanarak';
+    font-size: 15px;
+    color: #707070;
+  }
+  .footer-menu-Contact h3{
+    font-family: 'chulanarak';
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .contact{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+  .copyright{
+    float: left;
+    font-family: 'chulanarak';
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 0px;
+    color: #707070;
+  
+  }
+
+/* Medium devices (tablet 768px and up) */
+@media screen and (min-width:768px){
+    body .logo{
+        width: 88px;
+        height: 56px ;
+        margin-top: 0px;
+        text-align: center;
+        float: right;
+        margin-right: 200px ;
+    
+    }
+    .section-header{
+        font-size: 45px;
+        font-weight: normal;
+        text-align: center;
+        color: #fff;
+        margin: 30px 0;
+        background-color: black;
+        font-family: 'chulanarak';
+        margin-top: 100px;
+
+    }
+    .section-header a{
+        color: white;
+    }
+    
+    .section-header a:hover{
+        color: #D1B555;
+    }
+    .map{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .map h4{
+        font-family: 'chulanarak';
+        color: #A7A7A7;
+        font-size: 35px;
+    }
+    .media{
+        /* border-bottom: #999 solid 1px; */
+        padding: 20px 0;
+        list-style: none;
+    }
+    .media-icon{
+        float: left;
+        font-size: 30px;
+        color: #A7A7A7;
+        width: 55px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .media-body{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+    .media-text{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #A7A7A7;
+        line-height: 1.3;
+        font-family: 'chulanarak';
+    }
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+    .map-container iframe{
+        left:0;
+        top:0;
+        height:50%;
+        width:50%;
+        position:absolute;
+        }
+    .recomment{ 
+        margin-top: -250px;
+    }
+    .recomment h5{
+        font-family: 'chulanarak';
+        font-size: 35px;
+        color: #A7A7A7 ;
+    }
+    .box-comment p{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7 ;
+    }
+    .form-group{
+        width: 800px;
+    }
+    .row-1{
+        width: 800px;
+    }
+    .row-2{
+        width: 800px;
+        margin-top: 20px;
+        float: left;
+    }
+    .col-1{
+        width: 200px;
+    }
+    .col-2{
+        width: 800px;
+        margin-left: 200px;
+        margin-top: -34px;
+    }
+    .col-auto{
+        float: left;
+        margin-left: 10px;
+        margin-top: 800px;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #D1B555;
+        border-color: #D1B555;
+    }
+    
+    .journey{
+        background-color: #29292977;
+        margin-top: -150px;
+    }
+    .car-icon{
+        float: left;
+        font-size: 30px;
+        color: #A7A7A7;
+        width: 55px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .car{
+        margin-top: 200px;
+    }
+    .car h1{
+        font-family: 'chulanarak';
+        font-size: 35px;
+        color: #A7A7A7;
+    }
+    .car h2{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        color: #D1B555;
+    }
+    .car h3{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7;
+        margin-top: 10px;
+    }
+    .car p{
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #A7A7A7;
+    }
+    .bus{
+        margin-top: 50px;
+    }
+    .bus h2{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        color: #D1B555;
+    }
+    .bus h3{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7;
+    
+    }
+    .bus p{
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #A7A7A7;
+    }
+    .van{
+        margin-top: 50px;
+    }
+    .van h2{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        color: #D1B555;
+    }
+    .van p{
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #A7A7A7;
+    }
+    .center{
+        width: 100px;
+        float: left;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .footer-menu-Theater{
+        float: left;
+        margin-left: 350px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Theater h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-menu-Ticket{
+        float: left;
+        margin-left: 50px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Ticket h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-menu-Contact{
+        float: left;
+        margin-left: 50px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Contact h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .contact{
+        float: right;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+    .copyright{
+        float: left;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        margin-top: 80px;
+        margin-left: 100px;
+        color: #707070;
+
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    body .logo{
+        width: 88px;
+        height: 56px ;
+        margin-top: 0px;
+        text-align: center;
+        float: right;
+        margin-right: 200px ;
+    
+    }
+    /* contact */
+    .section-header{
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center;
+        color: #fff;
+        margin: 30px 0;
+        background-color: black;
+        font-family: 'chulanarak';
+        margin-top: 60px;
+        word-spacing :150px;
+    }
+    .section-header a{
+        color: white;
+
+    }
+
+    .section-header a:hover{
+        color: #D1B555;
+    }
+    .map{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    .map h4{
+        font-family: 'chulanarak';
+        color: #A7A7A7;
+        font-size: 35px;
+    }
+    .media{
+        /* border-bottom: #999 solid 1px; */
+        padding: 20px 0;
+        list-style: none;
+    }
+    .media-icon{
+        float: left;
+        font-size: 30px;
+        color: #A7A7A7;
+        width: 55px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .media-body{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+    .media-text{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #A7A7A7;
+        line-height: 1.3;
+        font-family: 'chulanarak';
+    }
+
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+    .map-container iframe{
+        left:0;
+        top:0;
+        height:50%;
+        width:50%;
+        position:absolute;
+        }
+    .recomment{
+        margin-left: 550px;
+        margin-top: -800px;
+    }
+    .recomment h5{
+        font-family: 'chulanarak';
+        font-size: 35px;
+        color: #A7A7A7 ;
+    }
+    .box-comment p{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7 ;
+    }
+    .form-group{
+        width: 400px;
+    }
+    .row-1{
+        width: 400px;
+    }
+    .row-2{
+        width: 400px;
+        margin-top: 10px;
+    }
+    .col-1{
+        width: 200px;
+    }
+    .col-2{
+        width: 200px;
+        margin-left: 220px;
+        margin-top: -34px;
+    }
+    .col-auto{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #D1B555;
+        border-color: #D1B555;
+    }
+    .journey{
+        background-color: #29292977;
+    }
+    .car-icon{
+        float: left;
+        font-size: 30px;
+        color: #A7A7A7;
+        width: 55px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .car{
+        margin-top: 200px;
+    }
+    .car h1{
+        font-family: 'chulanarak';
+        font-size: 35px;
+        color: #A7A7A7;
+    }
+    .car h2{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        color: #D1B555;
+    }
+    .car h3{
+        font-family: 'chulanarak';
+        font-size: 27px;
+        color: #A7A7A7;
+        margin-top: -43px;
+        margin-left: 70px;
+    }
+    .car p{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7;
+    }
+    .bus{
+        margin-top: 50px;
+    }
+    .bus h2{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        color: #D1B555;
+    }
+    .bus h3{
+        font-family: 'chulanarak';
+        font-size: 27px;
+        color: #A7A7A7;
+        margin-top: -43px;
+        margin-left: 200px;
+    }
+    .bus p{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7;
+    }
+    .van{
+        margin-top: 50px;
+    }
+    .van h2{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        color: #D1B555;
+    }
+    .van p{
+        font-family: 'chulanarak';
+        font-size: 25px;
+        color: #A7A7A7;
+    }
+    .center{
+        width: 100px;
+        float: left;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .footer-menu-Theater{
+        float: left;
+        margin-left: 350px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Theater h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-menu-Ticket{
+        float: left;
+        margin-left: 50px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Ticket h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-menu-Contact{
+        float: left;
+        margin-left: 50px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Contact h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .contact{
+        float: right;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+    .copyright{
+        float: left;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 100px;
+        color: #707070;
+
+    }
+
+}

@@ -1,0 +1,7188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+body{
+    font-family: 'ChulaNarak',sans-serif;
+    background-color: black;
+}
+body header .navbar-inverse .navbar-nav li a.active{
+    color: #fff;
+    background-color: black;
+}
+body header .navbar-inverse{
+    background-color: black;
+}
+body .logo{
+    width: 88px;
+    height: 56px ;
+    margin-top: 0px;
+    text-align: center;
+    float: right;
+    margin-right: 120px ;
+
+}
+body .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+body .navbar-toggle{
+    float: left;
+}
+body .input-group{
+    float: right;
+}
+body .form-outline{
+    border-radius: 30px;
+}
+body .navbar-inverse .navbar-toggle {
+    border-color: #D1B555;
+}
+body .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #D1B555;
+}
+body .navbar-inverse .navbar-nav>li>a:hover {
+    color: #D1B555;
+}
+.container{
+    background-color: black;
+}
+footer{
+    background-color:black ;
+}
+section{
+    background-color: black;
+}
+.d-flex-1{
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+/* Ticket */
+.section-header{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+    font-family: 'chulanarak';
+}
+#myCarousel-2{
+    position: relative;
+}
+
+/* time&date */
+.backgroud-time{
+    width: 375px;
+    height: 1161px;
+    margin-top: -70px;
+    background-color: black;
+}
+.section-content{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin: 30px 0;
+    background-color: black;
+    font-family: 'chulanarak';
+}
+.text-time{
+    font-family: 'chulanarak';
+    font-size: 45px;
+    color: white;
+}
+
+.text-time h3{
+    margin-top: -10px;
+}
+.section-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.media{
+    border-bottom: #999 solid 1px;
+    padding: 20px 0;
+    list-style: none;
+}
+.media-icon{
+    float: left;
+    font-size: 36px;
+    color: #A7A7A7;
+    width: 55px;
+    text-align: center;
+    margin-right: 20px;
+}
+.media-body{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.media-text{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #A7A7A7;
+    line-height: 1.3;
+}
+.media-time-1{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-1{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #D1B555;
+    line-height: 1.3;
+}
+.media-time-2{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-2{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.3;
+}
+.media-time-3{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-3{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.3;
+}
+.media-time-4{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-4{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.3;
+}
+.media a{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration-line: none;
+}
+
+/* ------Ticket-------- */
+.section-header{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  margin-left: 90px;
+  background-color: black;
+  font-family: 'chulanarak';
+}
+#myCarousel-2{
+  position: relative;
+}
+/* ------STEP BAR------- */
+.step-bar {
+  margin-top: 80px;
+  background-color: #000;
+  line-height: 1.42857143;
+  color: #333;
+  font-family: SmarnFilm Condensed,sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.step-bar .desktop {
+  font-size: 16px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+}
+.step-item a {
+  text-decoration: none;
+  
+}
+.step-item .no:hover{
+  background-color: #D1B555 ;
+}
+a {
+  background-color: transparent;
+}
+.step-item .no {
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50% ;
+  border-color: #D1B555;
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  width: 34px;
+  height: 34px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  line-height: 34px;
+  box-shadow: 0 4px 10px 0 #D1B555;
+  font-family: Chulanarak;
+}
+.step-item .step-name:hover{
+  color: #D1B555;
+
+}
+.step-item .step-name {
+  color: #c6c7c7;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: Chulanarak;
+  text-decoration: none;
+}
+  /* time&date */
+.backgroud-time{
+  width: 375px;
+  height: 1161px;
+  margin-top: -70px;
+  background-color: black;
+}
+.section-content{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+  margin: 30px 0;
+  background-color: black;
+  font-family: 'chulanarak';
+}
+.text-time{
+  font-family: 'chulanarak';
+  font-size: 45px;
+  color: white;
+  float: left;
+  /* margin-left: 350px; */
+  margin-top: 50px;
+}
+
+.text-time h3{
+  margin-top: -10px;
+}
+.section-item{
+  list-style: none;
+  margin-bottom: 10px;
+  float: left;
+  margin-left: 0px;
+}
+.media{
+  border-bottom: #999 solid 1px;
+  padding: 20px 0;
+  list-style: none;
+}
+.media a{
+  text-align: center;
+  margin-top: 50px;
+  text-decoration-line: none;
+  font-size:30px ;
+}
+.media-icon{
+  float: left;
+  font-size: 36px;
+  color: #A7A7A7;
+  width: 55px;
+  text-align: center;
+  margin-right: 20px;
+}
+.media-body{
+  /* margin: 0 0 10px 70px; */
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.media-text{
+  font-size: 28px;
+  font-weight: lighter;
+  color: #A7A7A7;
+  line-height: 1.3;
+}
+.media-time-1{
+  /* margin: 0 0 10px 70px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.media-date-1{
+  font-size: 28px;
+  font-weight: lighter;
+  color: #D1B555;
+  line-height: 1.3;
+}
+.media-time-2{
+  /* margin: 0 0 10px 70px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.media-date-2{
+  font-size: 28px;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 1.3;
+}
+.media-time-3{
+  /* margin: 0 0 10px 70px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.media-date-3{
+  font-size: 28px;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 1.3;
+}
+.media-time-4{
+  /* margin: 0 0 10px 70px; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.media-date-4{
+  font-size: 28px;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 1.3;
+}
+.media a{
+  text-align: center;
+  margin-top: 50px;
+  text-decoration-line: none;
+}
+.item{
+  margin-top: 30px;
+}
+
+/* ------select sit A------ */
+.bth-group-A1{
+  margin-left: -5px;
+  margin-top: 25px;
+  width: 250px;
+  font-family: 'chulanarak';
+
+}
+.btn-group-1 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-1 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-1 button:hover {
+  background-color: red;
+}
+/* ---2--- */
+.btn-group-2 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-2 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-2 button:hover {
+  background-color: red;
+}
+/* ---3--- */
+.btn-group-3 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-3:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-3 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-3 button:hover {
+  background-color: red;
+}
+/* ---4--- */
+.btn-group-4 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -5px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-4:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-4 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-4 button:hover {
+  background-color: red;
+}
+/* ---5--- */
+.btn-group-5 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-5:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-5 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-5 button:hover {
+  background-color: red;
+}
+/* ---6--- */
+.btn-group-6 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-6:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-6 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-6 button:hover {
+  background-color: red;
+}
+
+/* -------A2------- */
+.bth-group-A2{
+  margin-left: 75px;
+  width: 900px;
+  font-family: 'chulanarak';
+}
+.btn-group-7 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-7:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-7 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-7 button:hover {
+  background-color: red;
+}
+/* ---8--- */
+.btn-group-8 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-8:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-8 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-8 button:hover {
+  background-color: red;
+}
+/* ---9--- */
+.btn-group-9 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-9:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-9 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-9 button:hover {
+  background-color: red;
+}
+/* ---10--- */
+.btn-group-10 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -5px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-10:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-10 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-10 button:hover {
+  background-color: red;
+}
+/* ---11--- */
+.btn-group-11 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-11:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-11 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-11 button:hover {
+  background-color: red;
+}
+/* ---12--- */
+.btn-group-12 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-12:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-12 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-12 button:hover {
+  background-color: red;
+}
+
+.bth-group-A3{
+  margin-left: 195px;
+}
+.btn-group-13 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-13:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-13 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-13 button:hover {
+  background-color: red;
+}
+/* ---2--- */
+.btn-group-14 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-14:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-14 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-14 button:hover {
+  background-color: red;
+}
+/* ---3--- */
+.btn-group-15 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-15:after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.btn-group-15 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-15 button:hover {
+  background-color: red;
+}
+/* ---4--- */
+.btn-group-16 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-16:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-16 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-16 button:hover {
+  background-color: red;
+}
+/* ---5--- */
+.btn-group-17 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-17:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-17 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-17 button:hover {
+  background-color: red;
+}
+/* ---6--- */
+.btn-group-18 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-18:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-18 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-18 button:hover {
+  background-color: red;
+}
+
+/* ------select sit B------ */
+.bth-group-B1{
+  margin-top: 20px;
+  width: 300px;
+  margin-right: 50px;
+  float: right;
+}
+.btn-group-B01{
+  margin-left: 140px;
+}
+.btn-group-B01 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+  padding-top: 4px;
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B01:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B01 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B01 button:hover {
+  background-color: red;
+}
+/* ---2--- */
+.btn-group-B02{
+  margin-left: 130px;
+}
+.btn-group-B02 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 5px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B02:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B02 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B02 button:hover {
+  background-color: red;
+}
+/* ---3--- */
+.btn-group-B03{
+  margin-left: 120px;
+}
+.btn-group-B03 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 2px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B03:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B03 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B03 button:hover {
+  background-color: red;
+}
+/* ---4--- */
+.btn-group-B04{
+  margin-left: 0px;
+}
+.btn-group-B04 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -1px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B04:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B04 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B04 button:hover {
+  background-color: red;
+}
+/* ---5--- */
+.btn-group-B05{
+  margin-left: -10px;
+}
+.btn-group-B05 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -5px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B05:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B05 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B05 button:hover {
+  background-color: red;
+}
+/* ---6--- */
+.btn-group-B06{
+  margin-left: -18px;
+}
+.btn-group-B06 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -10px;
+  padding-top: 4px;
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B06:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B06 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B06 button:hover {
+  background-color: red;
+}
+
+/* -------B2------- */
+.bth-group-B2{
+  margin-left: 85px;
+  width: 900px;
+  font-family: 'chulanarak';
+}
+.btn-group-B07{
+  margin-left: -25px;
+}
+.btn-group-B07 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B07:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B07 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B07 button:hover {
+  background-color: red;
+}
+/* ---8--- */
+.btn-group-B08{
+  margin-left: -15px;
+}
+.btn-group-B08 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 5px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B08:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B08 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B08 button:hover {
+  background-color: red;
+}
+/* ---9--- */
+.btn-group-B09{
+  margin-left: -5px;
+}
+.btn-group-B09 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 2px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B09:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B09 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B09 button:hover {
+  background-color: red;
+}
+/* ---10--- */
+.btn-group-B10{
+  margin-left: -5px;
+}
+.btn-group-B10 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -2px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B10:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B10 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B10 button:hover {
+  background-color: red;
+}
+/* ---11--- */
+.btn-group-B11{
+  margin-left: 5px;
+}
+.btn-group-B11 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -5px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B11:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B11 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B11 button:hover {
+  background-color: red;
+}
+/* ---12--- */
+.btn-group-B12{
+  margin-left: 20px;
+}
+.btn-group-B12 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: -10px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B12:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B12 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B12 button:hover {
+  background-color: red;
+}
+/* --------B3------------ */
+.bth-group-B3{
+  margin-left: 160px;
+  font-family: 'chulanarak';
+
+}
+.btn-group-B13{
+  margin-left: 0px;
+}
+.btn-group-B13 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B13:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B13 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B13 button:hover {
+  background-color: red;
+}
+/* ---2--- */
+.btn-group-B14{
+  margin-left: 0px;
+}
+.btn-group-B14 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B14:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B14 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B14 button:hover {
+  background-color: red;
+}
+/* ---3--- */
+.btn-group-B15{
+  margin-left: 0px;
+}
+.btn-group-B15 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B15:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B15 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B15 button:hover {
+  background-color: red;
+}
+/* ---4--- */
+.btn-group-B16{
+  margin-left: 0px;
+}
+.btn-group-B16 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 5px;
+  padding-top: 4px;
+  
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B16:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B16 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B16 button:hover {
+  background-color: red;
+}
+/* ---5--- */
+.btn-group-B17 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B17:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B17 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B17 button:hover {
+  background-color: red;
+}
+/* ---6--- */
+.btn-group-B18{
+  margin-left: -15px;
+}
+.btn-group-B18 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-B18:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-B18 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-B18 button:hover {
+  background-color: red;
+}
+/* ------select sit C------ */
+.bth-group-C1{
+  margin-top: 20px;
+  width: 300px;
+  margin-right: 50px;
+  float: right;
+}
+.btn-group-C01{
+  margin-left: 185px;
+}
+.btn-group-C01 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+  padding-top: 4px;
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C01:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C01 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C01 button:hover {
+  background-color: red;
+}
+/* ---2--- */
+.btn-group-C02{
+  margin-left: 175px;
+}
+.btn-group-C02 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C02:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C02 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C02 button:hover {
+  background-color: red;
+}
+/* ---3--- */
+.btn-group-C03{
+  margin-left: 165px;
+}
+.btn-group-C03 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C03:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C03 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C03 button:hover {
+  background-color: red;
+}
+/* ---4--- */
+.btn-group-C04 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C04:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C04 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C04 button:hover {
+  background-color: red;
+}
+/* ---5--- */
+.btn-group-C05{
+  margin-left: -10px;
+}
+.btn-group-C05 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C05:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C05 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C05 button:hover {
+  background-color: red;
+}
+/* ---6--- */
+.btn-group-C06{
+  margin-left: -35px;
+}
+.btn-group-C06 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C06:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C06 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C06 button:hover {
+  background-color: red;
+}
+
+/* -------C2------- */
+.bth-group-C2{
+  margin-left: 160px;
+  width: 900px;
+  font-family: 'chulanarak';
+}
+.btn-group-C07{
+  margin-left: -100px;
+}
+.btn-group-C07 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C07:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C07 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C07 button:hover {
+  background-color: red;
+}
+/* ---8--- */
+.btn-group-C08{
+  margin-left: -90px;
+}
+.btn-group-C08 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C08:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C08 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C08 button:hover {
+  background-color: red;
+}
+/* ---9--- */
+.btn-group-C09{
+  margin-left: -80px;
+}
+.btn-group-C09 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C09:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C09 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C09 button:hover {
+  background-color: red;
+}
+/* ---10--- */
+.btn-group-C10{
+  margin-left: -80px;
+}
+.btn-group-C10 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C10:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C10 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C10 button:hover {
+  background-color: red;
+}
+/* ---11--- */
+.btn-group-C11{
+  margin-left: -70px;
+}
+.btn-group-C11 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C11:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C11 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C11 button:hover {
+  background-color: red;
+}
+/* ---12--- */
+.btn-group-C12{
+  margin-left: -280px;
+}
+.btn-group-C12 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C12:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C12 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C12 button:hover {
+  background-color: red;
+}
+/* --------C3------------ */
+.bth-group-C3{
+  margin-left: 160px;
+
+}
+.btn-group-C13 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 10px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C13:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C13 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C13 button:hover {
+  background-color: red;
+}
+/* ---2--- */
+.btn-group-C14 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C14:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C14 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C14 button:hover {
+  background-color: red;
+}
+/* ---3--- */
+.btn-group-C15 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C15:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C15 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C15 button:hover {
+  background-color: red;
+}
+/* ---4--- */
+.btn-group-C16 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C16:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C16 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C16 button:hover {
+  background-color: red;
+}
+/* ---5--- */
+.btn-group-C17 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C17:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C17 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C17 button:hover {
+  background-color: red;
+}
+/* ---6--- */
+.btn-group-C18{
+  margin-left: -500px;
+}
+
+.btn-group-C18 button {
+  background-color: #707070; /* Green background */
+  border: 1px solid #fff; /* Green border */
+  color: white; /* White text */
+  padding: 5px 8px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 5px;
+  height: 5px;
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-top: 4px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group-C18:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group-C18 button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group-C18 button:hover {
+  background-color: red;
+}
+/* -------footer--------- */
+.center{
+  width: 100px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.footer-menu-Theater{
+  float: left;
+  margin-left: -10px;
+  margin-top: 20px;
+  font-family: 'chulanarak';
+  font-size: 15px;
+  color: #707070;
+}
+.footer-menu-Theater h3{
+  font-family: 'chulanarak';
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-menu-Ticket{
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: 'chulanarak';
+  font-size: 15px;
+  color: #707070;
+}
+.footer-menu-Ticket h3{
+  font-family: 'chulanarak';
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-menu-Contact{
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: 'chulanarak';
+  font-size: 15px;
+  color: #707070;
+}
+.footer-menu-Contact h3{
+  font-family: 'chulanarak';
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact{
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.copyright{
+  float: left;
+  font-family: 'chulanarak';
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 0px;
+  color: #707070;
+
+}
+/* ------STEP BAR------- */
+
+
+@media screen and (min-width:768px){
+    /* display: flex; */
+    body .logo{
+      width: 88px;
+      height: 56px ;
+      margin-top: 0px;
+      text-align: center;
+      float: right;
+      margin-right: 200px ;
+  
+  }
+  /* ------Ticket-------- */
+  .section-header{
+      font-size: 60px;
+      font-weight: bold;
+      text-align: left;
+      color: #fff;
+      margin-left: 90px;
+      background-color: black;
+      font-family: 'chulanarak';
+  }
+  #myCarousel-2{
+      position: relative;
+  }
+  /* ------STEP BAR------- */
+  .step-bar {
+      margin-top: 50px;
+      background-color: #000;
+      line-height: 1.42857143;
+      color: #333;
+      font-family: SmarnFilm Condensed,sans-serif;
+      font-size: 16px;
+      box-sizing: border-box;
+  }
+  .step-bar .desktop {
+      font-size: 16px;
+      box-sizing: border-box;
+      justify-content: space-between;
+      list-style: none;
+      display: flex;
+  }
+  .step-item a {
+      text-decoration: none;
+      
+  }
+  .step-item .no:hover{
+      background-color: #D1B555 ;
+  }
+  a {
+      background-color: transparent;
+  }
+  .step-item .no {
+      list-style: none;
+      cursor: pointer;
+      box-sizing: border-box;
+      font-weight: 600;
+      text-align: center;
+      border-radius: 50% ;
+      border-color: #D1B555;
+      display: inline-block;
+      position: relative;
+      font-size: 30px;
+      width: 34px;
+      height: 34px;
+      background-color: #000000;
+      color: #fff;
+      border: none;
+      line-height: 34px;
+      box-shadow: 0 4px 10px 0 #D1B555;
+      font-family: Chulanarak;
+  }
+  .step-name:hover{
+      color: #D1B555;
+
+  }
+  .step-item .step-name {
+      color: #c6c7c7;
+      margin-top: 10px;
+      font-size: 35px;
+      font-family: Chulanarak;
+      text-decoration: none;
+  }
+      /* time&date */
+  .backgroud-time{
+      width: 375px;
+      height: 1161px;
+      margin-top: -70px;
+      background-color: black;
+  }
+  .section-content{
+      font-size: 60px;
+      font-weight: bold;
+      text-align: left;
+      color: #fff;
+      margin: 30px 0;
+      background-color: black;
+      font-family: 'chulanarak';
+  }
+  .text-time{
+      font-family: 'chulanarak';
+      font-size: 45px;
+      color: white;
+      float: left;
+      margin-left: 350px;
+      margin-top: -400px;
+  }
+  /* .text-time {
+      float: right;
+      margin-top: -420px;
+      margin-right: -10px;
+  } */
+
+  .text-time h3{
+      margin-top: -10px;
+  }
+  .section-item{
+      list-style: none;
+      margin-bottom: 10px;
+      float: left;
+      margin-left: 0px;
+  }
+  .media{
+      border-bottom: #999 solid 1px;
+      padding: 20px 0;
+      list-style: none;
+  }
+  .media a{
+      text-align: center;
+      margin-top: 50px;
+      text-decoration-line: none;
+      font-size:30px ;
+  }
+  .media-icon{
+      float: left;
+      font-size: 36px;
+      color: #A7A7A7;
+      width: 55px;
+      text-align: center;
+      margin-right: 20px;
+  }
+  .media-body{
+      /* margin: 0 0 10px 70px; */
+      margin-left: 70px;
+      margin-bottom: 10px;
+  }
+  .media-text{
+      font-size: 28px;
+      font-weight: lighter;
+      color: #A7A7A7;
+      line-height: 1.3;
+  }
+  .media-time-1{
+      /* margin: 0 0 10px 70px; */
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  .media-date-1{
+      font-size: 28px;
+      font-weight: lighter;
+      color: #D1B555;
+      line-height: 1.3;
+  }
+  .media-time-2{
+      /* margin: 0 0 10px 70px; */
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  .media-date-2{
+      font-size: 28px;
+      font-weight: lighter;
+      color: #fff;
+      line-height: 1.3;
+  }
+  .media-time-3{
+      /* margin: 0 0 10px 70px; */
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  .media-date-3{
+      font-size: 28px;
+      font-weight: lighter;
+      color: #fff;
+      line-height: 1.3;
+  }
+  .media-time-4{
+      /* margin: 0 0 10px 70px; */
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  .media-date-4{
+      font-size: 28px;
+      font-weight: lighter;
+      color: #fff;
+      line-height: 1.3;
+  }
+  .media a{
+      text-align: center;
+      margin-top: 50px;
+      text-decoration-line: none;
+  }
+  .item{
+      margin-top: 30px;
+  }
+
+  /* ------select sit A------ */
+  .bth-group-A1{
+      margin-top: 20px;
+      width: 250px;
+      font-family: 'chulanarak';
+
+  }
+  .btn-group-1 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-1:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-1 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-1 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+    .btn-group-2 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-2:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-2 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-2 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-3 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-3:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-3 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-3 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-4 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-4:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-4 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-4 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-5 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-5:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-5 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-5 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-6 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-6:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-6 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-6 button:hover {
+      background-color: red;
+    }
+
+    /* -------A2------- */
+  .bth-group-A2{
+      margin-left: 200px;
+      width: 900px;
+      font-family: 'chulanarak';
+  }
+  .btn-group-7 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-7:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-7 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-7 button:hover {
+      background-color: red;
+    }
+  /* ---8--- */
+    .btn-group-8 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-8:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-8 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-8 button:hover {
+      background-color: red;
+    }
+  /* ---9--- */
+  .btn-group-9 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-9:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-9 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-9 button:hover {
+      background-color: red;
+    }
+  /* ---10--- */
+  .btn-group-10 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-10:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-10 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-10 button:hover {
+      background-color: red;
+    }
+  /* ---11--- */
+  .btn-group-11 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-11:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-11 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-11 button:hover {
+      background-color: red;
+    }
+  /* ---12--- */
+  .btn-group-12 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-12:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-12 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-12 button:hover {
+      background-color: red;
+    }
+
+    .bth-group-A3{
+      margin-left: 480px;
+      font-family: 'chulanarak';
+
+  }
+  .btn-group-13 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-13:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-13 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-13 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+    .btn-group-14 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-14:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-14 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-14 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-15 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-15:after {
+      content: "";
+      clear: both;
+      display: table;
+      
+    }
+    
+    .btn-group-15 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-15 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-16 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-16:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-16 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-16 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-17 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-17:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-17 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-17 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-18 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-18:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-18 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-18 button:hover {
+      background-color: red;
+    }
+
+  /* ------select sit B------ */
+  .bth-group-B1{
+      margin-top: 35px;
+      width: 300px;
+      font-family: 'chulanarak';
+      margin-right: 50px;
+
+  }
+  .btn-group-B01 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B01:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B01 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-B01 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+    .btn-group-B02 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B02:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B02 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B02 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-B03 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B03:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B03 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B03 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-B04 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B04:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B04 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B04 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-B05 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B05:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B05 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B05 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-B06 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B06:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B06 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B06 button:hover {
+      background-color: red;
+    }
+
+    /* -------B2------- */
+  .bth-group-B2{
+      margin-left: 300px;
+      width: 900px;
+      font-family: 'chulanarak';
+  }
+  .btn-group-B07 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B07:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B07 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-B07 button:hover {
+      background-color: red;
+    }
+  /* ---8--- */
+    .btn-group-B08 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B08:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B08 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B08 button:hover {
+      background-color: red;
+    }
+  /* ---9--- */
+  .btn-group-B09 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B09:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B09 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B09 button:hover {
+      background-color: red;
+    }
+  /* ---10--- */
+  .btn-group-B10 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B10:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B10 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B10 button:hover {
+      background-color: red;
+    }
+  /* ---11--- */
+  .btn-group-B11 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B11:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B11 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B11 button:hover {
+      background-color: red;
+    }
+  /* ---12--- */
+  .btn-group-B12 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B12:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B12 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B12 button:hover {
+      background-color: red;
+    }
+/* --------B3------------ */
+    .bth-group-B3{
+      margin-left: 450px;
+      font-family: 'chulanarak';
+
+  }
+  .btn-group-B13 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B13:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B13 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-B13 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+    .btn-group-B14 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B14:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B14 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B14 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-B15 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B15:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B15 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B15 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-B16 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 5px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B16:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B16 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B16 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-B17 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B17:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B17 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B17 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-B18 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B18:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B18 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B18 button:hover {
+      background-color: red;
+    }
+
+/* ------select sit B------ */
+  .bth-group-B1{
+      margin-top: 20px;
+      width: 300px;
+      font-family: 'chulanarak';
+      margin-right: 50px;
+      float: right;
+  }
+  .btn-group-B01{
+      margin-left: 100px;
+  }
+  .btn-group-B01 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B01:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B01 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-B01 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+  .btn-group-B02{
+      margin-left: 75px;
+  }
+    .btn-group-B02 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B02:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B02 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B02 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-B03{
+      margin-left: 50px;
+  }
+  .btn-group-B03 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B03:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B03 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B03 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-B04{
+      margin-left: 0px;
+  }
+  .btn-group-B04 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B04:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B04 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B04 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-B05{
+      margin-left: -25px;
+  }
+  .btn-group-B05 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B05:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B05 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B05 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-B06{
+      margin-left: -50px;
+  }
+  .btn-group-B06 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B06:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B06 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B06 button:hover {
+      background-color: red;
+    }
+
+    /* -------B2------- */
+  .bth-group-B2{
+      margin-left: 320px;
+      width: 900px;
+      font-family: 'chulanarak';
+  }
+  .btn-group-B07{
+      margin-left: -120px;
+  }
+  .btn-group-B07 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B07:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B07 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-B07 button:hover {
+      background-color: red;
+    }
+  /* ---8--- */
+  .btn-group-B08{
+      margin-left: -95px;
+  }
+    .btn-group-B08 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B08:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B08 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B08 button:hover {
+      background-color: red;
+    }
+  /* ---9--- */
+  .btn-group-B09{
+      margin-left: -70px;
+  }
+  .btn-group-B09 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B09:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B09 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B09 button:hover {
+      background-color: red;
+    }
+  /* ---10--- */
+  .btn-group-B10{
+      margin-left: -70px;
+  }
+  .btn-group-B10 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B10:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B10 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B10 button:hover {
+      background-color: red;
+    }
+  /* ---11--- */
+  .btn-group-B11{
+      margin-left: -45px;
+  }
+  .btn-group-B11 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B11:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B11 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B11 button:hover {
+      background-color: red;
+    }
+  /* ---12--- */
+  .btn-group-B12{
+      margin-left: 5px;
+  }
+  .btn-group-B12 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B12:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B12 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B12 button:hover {
+      background-color: red;
+    }
+/* --------B3------------ */
+    .bth-group-B3{
+      margin-left: 480px;
+      font-family: 'chulanarak';
+
+  }
+  .btn-group-B13 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B13:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B13 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-B13 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+    .btn-group-B14 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B14:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B14 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B14 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-B15 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B15:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B15 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B15 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-B16 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B16:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B16 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B16 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-B17 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B17:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B17 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B17 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-B18 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-B18:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-B18 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-B18 button:hover {
+      background-color: red;
+    }
+    /* ------select sit C------ */
+  .bth-group-C1{
+    margin-left: -25px;
+      margin-top: 35px;
+      width: 300px;
+      font-family: 'chulanarak';
+  }
+  .btn-group-C01{
+      margin-left: 75px;
+  }
+  .btn-group-C01 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C01:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C01 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-C01 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+  .btn-group-C02{
+      margin-left: 50px;
+  }
+    .btn-group-C02 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C02:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C02 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C02 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-C03{
+      margin-left: 25px;
+  }
+  .btn-group-C03 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C03:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C03 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C03 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-C04 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C04:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C04 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C04 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-C05{
+      margin-left: -25px;
+  }
+  .btn-group-C05 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C05:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C05 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C05 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-C06{
+      margin-left: -30px;
+  }
+  .btn-group-C06 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C06:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C06 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C06 button:hover {
+      background-color: red;
+    }
+
+    /* -------C2------- */
+  .bth-group-C2{
+      margin-left: 300px;
+      width: 900px;
+      font-family: 'chulanarak';
+  }
+  .btn-group-C07{
+      margin-left: -100px;
+  }
+  .btn-group-C07 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C07:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C07 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-C07 button:hover {
+      background-color: red;
+    }
+  /* ---8--- */
+  .btn-group-C08{
+      margin-left: -75px;
+  }
+    .btn-group-C08 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C08:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C08 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C08 button:hover {
+      background-color: red;
+    }
+  /* ---9--- */
+  .btn-group-C09{
+      margin-left: -50px;
+  }
+  .btn-group-C09 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C09:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C09 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C09 button:hover {
+      background-color: red;
+    }
+  /* ---10--- */
+  .btn-group-C10{
+      margin-left: -50px;
+  }
+  .btn-group-C10 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C10:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C10 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C10 button:hover {
+      background-color: red;
+    }
+  /* ---11--- */
+  .btn-group-C11{
+      margin-left: -25px;
+  }
+  .btn-group-C11 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C11:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C11 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C11 button:hover {
+      background-color: red;
+    }
+  /* ---12--- */
+  .btn-group-C12{
+      margin-left: -25px;
+  }
+  .btn-group-C12 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top:10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C12:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C12 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C12 button:hover {
+      background-color: red;
+    }
+/* --------C3------------ */
+    .bth-group-C3{
+      margin-left: 480px;
+      font-family: 'chulanarak';
+
+  }
+  .btn-group-C13 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C13:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C13 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+  /* Add a background color on hover */
+    .btn-group-C13 button:hover {
+      background-color: red;
+    }
+  /* ---2--- */
+    .btn-group-C14 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C14:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C14 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C14 button:hover {
+      background-color: red;
+    }
+  /* ---3--- */
+  .btn-group-C15 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C15:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C15 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C15 button:hover {
+      background-color: red;
+    }
+  /* ---4--- */
+  .btn-group-C16 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C16:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C16 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C16 button:hover {
+      background-color: red;
+    }
+  /* ---5--- */
+  .btn-group-C17 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C17:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C17 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C17 button:hover {
+      background-color: red;
+    }
+  /* ---6--- */
+  .btn-group-C18{
+      margin-left: -55px;
+  }
+
+  .btn-group-C18 button {
+      background-color: #707070; /* Green background */
+      border: 1px solid #fff; /* Green border */
+      color: white; /* White text */
+      padding: 5px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+      width: 15px;
+      height: 15px;
+      padding-left: 0px;
+      margin-top: 10px;
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group-C18:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .btn-group-C18 button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group-C18 button:hover {
+      background-color: red;
+    }
+/* -------footer--------- */
+    .center{
+      width: 100px;
+      float: left;
+      margin-top: 50px;
+      margin-left: 100px;
+  }
+  .footer-menu-Theater{
+      float: left;
+      margin-left: 350px;
+      margin-top: -70px;
+      font-family: 'chulanarak';
+      font-size: 20px;
+      color: #707070;
+  }
+  .footer-menu-Theater h3{
+      font-family: 'chulanarak';
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .footer-menu-Ticket{
+      float: left;
+      margin-left: 50px;
+      margin-top: -80px;
+      font-family: 'chulanarak';
+      font-size: 20px;
+      color: #707070;
+  }
+  .footer-menu-Ticket h3{
+      font-family: 'chulanarak';
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .footer-menu-Contact{
+      float: left;
+      margin-left: 50px;
+      margin-top: -80px;
+      font-family: 'chulanarak';
+      font-size: 20px;
+      color: #707070;
+  }
+  .footer-menu-Contact h3{
+      font-family: 'chulanarak';
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .contact{
+      float: right;
+      margin-top: 30px;
+      margin-right: 100px;
+  }
+  .copyright{
+      float: left;
+      font-family: 'chulanarak';
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 100px;
+      color: #707070;
+
+  }
+}
+
+@media screen and (min-width:1024px){
+    body .logo{
+        width: 88px;
+        height: 56px ;
+        margin-top: 0px;
+        text-align: center;
+        float: right;
+        margin-right: 200px ;
+    
+    }
+    /* ------Ticket-------- */
+    .section-header{
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        margin-left: 90px;
+        background-color: black;
+        font-family: 'chulanarak';
+    }
+    #myCarousel-2{
+        position: relative;
+    }
+    /* ------STEP BAR------- */
+    .step-bar {
+        margin-top: 50px;
+        background-color: #000;
+        line-height: 1.42857143;
+        color: #333;
+        font-family: SmarnFilm Condensed,sans-serif;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    .step-bar .desktop {
+        font-size: 16px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        list-style: none;
+        display: flex;
+    }
+    .step-item a {
+        text-decoration: none;
+        
+    }
+    .step-item .no:hover{
+        background-color: #D1B555 ;
+    }
+    a {
+        background-color: transparent;
+    }
+    .step-item .no {
+        list-style: none;
+        cursor: pointer;
+        box-sizing: border-box;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 50% ;
+        border-color: #D1B555;
+        display: inline-block;
+        position: relative;
+        font-size: 30px;
+        width: 34px;
+        height: 34px;
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        line-height: 34px;
+        box-shadow: 0 4px 10px 0 #D1B555;
+        font-family: Chulanarak;
+    }
+    .step-name:hover{
+        color: #D1B555;
+
+    }
+    .step-item .step-name {
+        color: #c6c7c7;
+        margin-top: 10px;
+        font-size: 35px;
+        font-family: Chulanarak;
+        text-decoration: none;
+    }
+        /* time&date */
+    .backgroud-time{
+        width: 375px;
+        height: 1161px;
+        margin-top: -70px;
+        background-color: black;
+    }
+    .section-content{
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        margin: 30px 0;
+        background-color: black;
+        font-family: 'chulanarak';
+    }
+    .text-time{
+        font-family: 'chulanarak';
+        font-size: 45px;
+        color: white;
+        float: left;
+        margin-left: 350px;
+        margin-top: -400px;
+    }
+    /* .text-time {
+        float: right;
+        margin-top: -420px;
+        margin-right: -10px;
+    } */
+
+    .text-time h3{
+        margin-top: -10px;
+    }
+    .section-item{
+        list-style: none;
+        margin-bottom: 10px;
+        float: left;
+        margin-left: 0px;
+    }
+    .media{
+        border-bottom: #999 solid 1px;
+        padding: 20px 0;
+        list-style: none;
+    }
+    .media a{
+        text-align: center;
+        margin-top: 50px;
+        text-decoration-line: none;
+        font-size:30px ;
+    }
+    .media-icon{
+        float: left;
+        font-size: 36px;
+        color: #A7A7A7;
+        width: 55px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .media-body{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+    .media-text{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #A7A7A7;
+        line-height: 1.3;
+    }
+    .media-time-1{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .media-date-1{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #D1B555;
+        line-height: 1.3;
+    }
+    .media-time-2{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .media-date-2{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #fff;
+        line-height: 1.3;
+    }
+    .media-time-3{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .media-date-3{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #fff;
+        line-height: 1.3;
+    }
+    .media-time-4{
+        /* margin: 0 0 10px 70px; */
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .media-date-4{
+        font-size: 28px;
+        font-weight: lighter;
+        color: #fff;
+        line-height: 1.3;
+    }
+    .media a{
+        text-align: center;
+        margin-top: 50px;
+        text-decoration-line: none;
+    }
+    .item{
+        margin-top: 30px;
+    }
+
+    /* ------select sit A------ */
+    .bth-group-A1{
+        margin-top: 20px;
+        width: 250px;
+        font-family: 'chulanarak';
+
+    }
+    .btn-group-1 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-1:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-1 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-1 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+      .btn-group-2 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-2:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-2 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-2 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-3 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-3:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-3 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-3 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-4 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-4:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-4 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-4 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-5 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-5:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-5 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-5 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-6 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-6:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-6 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-6 button:hover {
+        background-color: red;
+      }
+
+      /* -------A2------- */
+    .bth-group-A2{
+        margin-left: 200px;
+        width: 900px;
+        font-family: 'chulanarak';
+    }
+    .btn-group-7 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-7:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-7 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-7 button:hover {
+        background-color: red;
+      }
+    /* ---8--- */
+      .btn-group-8 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-8:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-8 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-8 button:hover {
+        background-color: red;
+      }
+    /* ---9--- */
+    .btn-group-9 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-9:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-9 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-9 button:hover {
+        background-color: red;
+      }
+    /* ---10--- */
+    .btn-group-10 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-10:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-10 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-10 button:hover {
+        background-color: red;
+      }
+    /* ---11--- */
+    .btn-group-11 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-11:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-11 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-11 button:hover {
+        background-color: red;
+      }
+    /* ---12--- */
+    .btn-group-12 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-12:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-12 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-12 button:hover {
+        background-color: red;
+      }
+
+      .bth-group-A3{
+        margin-left: 480px;
+        font-family: 'chulanarak';
+
+    }
+    .btn-group-13 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-13:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-13 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-13 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+      .btn-group-14 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-14:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-14 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-14 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-15 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-15:after {
+        content: "";
+        clear: both;
+        display: table;
+        
+      }
+      
+      .btn-group-15 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-15 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-16 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-16:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-16 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-16 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-17 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-17:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-17 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-17 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-18 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-18:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-18 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-18 button:hover {
+        background-color: red;
+      }
+
+    /* ------select sit B------ */
+    .bth-group-B1{
+        margin-top: 35px;
+        width: 300px;
+        font-family: 'chulanarak';
+        margin-right: 50px;
+
+    }
+    .btn-group-B01 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B01:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B01 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-B01 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+      .btn-group-B02 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B02:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B02 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B02 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-B03 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B03:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B03 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B03 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-B04 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B04:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B04 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B04 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-B05 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B05:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B05 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B05 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-B06 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B06:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B06 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B06 button:hover {
+        background-color: red;
+      }
+
+      /* -------B2------- */
+    .bth-group-B2{
+        margin-left: 300px;
+        width: 900px;
+        font-family: 'chulanarak';
+    }
+    .btn-group-B07 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B07:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B07 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-B07 button:hover {
+        background-color: red;
+      }
+    /* ---8--- */
+      .btn-group-B08 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B08:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B08 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B08 button:hover {
+        background-color: red;
+      }
+    /* ---9--- */
+    .btn-group-B09 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B09:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B09 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B09 button:hover {
+        background-color: red;
+      }
+    /* ---10--- */
+    .btn-group-B10 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B10:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B10 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B10 button:hover {
+        background-color: red;
+      }
+    /* ---11--- */
+    .btn-group-B11 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B11:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B11 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B11 button:hover {
+        background-color: red;
+      }
+    /* ---12--- */
+    .btn-group-B12 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B12:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B12 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B12 button:hover {
+        background-color: red;
+      }
+/* --------B3------------ */
+      .bth-group-B3{
+        margin-left: 450px;
+        font-family: 'chulanarak';
+
+    }
+    .btn-group-B13 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B13:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B13 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-B13 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+      .btn-group-B14 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B14:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B14 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B14 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-B15 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B15:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B15 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B15 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-B16 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 5px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B16:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B16 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B16 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-B17 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B17:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B17 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B17 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-B18 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B18:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B18 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B18 button:hover {
+        background-color: red;
+      }
+
+/* ------select sit B------ */
+    .bth-group-B1{
+        margin-top: 20px;
+        width: 300px;
+        font-family: 'chulanarak';
+        margin-right: 50px;
+        float: right;
+    }
+    .btn-group-B01{
+        margin-left: 100px;
+    }
+    .btn-group-B01 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B01:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B01 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-B01 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+    .btn-group-B02{
+        margin-left: 75px;
+    }
+      .btn-group-B02 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B02:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B02 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B02 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-B03{
+        margin-left: 50px;
+    }
+    .btn-group-B03 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B03:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B03 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B03 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-B04{
+        margin-left: 0px;
+    }
+    .btn-group-B04 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B04:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B04 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B04 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-B05{
+        margin-left: -25px;
+    }
+    .btn-group-B05 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B05:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B05 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B05 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-B06{
+        margin-left: -50px;
+    }
+    .btn-group-B06 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B06:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B06 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B06 button:hover {
+        background-color: red;
+      }
+
+      /* -------B2------- */
+    .bth-group-B2{
+        margin-left: 320px;
+        width: 900px;
+        font-family: 'chulanarak';
+    }
+    .btn-group-B07{
+        margin-left: -120px;
+    }
+    .btn-group-B07 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B07:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B07 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-B07 button:hover {
+        background-color: red;
+      }
+    /* ---8--- */
+    .btn-group-B08{
+        margin-left: -95px;
+    }
+      .btn-group-B08 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B08:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B08 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B08 button:hover {
+        background-color: red;
+      }
+    /* ---9--- */
+    .btn-group-B09{
+        margin-left: -70px;
+    }
+    .btn-group-B09 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B09:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B09 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B09 button:hover {
+        background-color: red;
+      }
+    /* ---10--- */
+    .btn-group-B10{
+        margin-left: -70px;
+    }
+    .btn-group-B10 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B10:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B10 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B10 button:hover {
+        background-color: red;
+      }
+    /* ---11--- */
+    .btn-group-B11{
+        margin-left: -45px;
+    }
+    .btn-group-B11 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B11:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B11 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B11 button:hover {
+        background-color: red;
+      }
+    /* ---12--- */
+    .btn-group-B12{
+        margin-left: 5px;
+    }
+    .btn-group-B12 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B12:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B12 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B12 button:hover {
+        background-color: red;
+      }
+/* --------B3------------ */
+      .bth-group-B3{
+        margin-left: 480px;
+        font-family: 'chulanarak';
+
+    }
+    .btn-group-B13 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B13:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B13 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-B13 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+      .btn-group-B14 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B14:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B14 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B14 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-B15 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B15:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B15 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B15 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-B16 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B16:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B16 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B16 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-B17 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B17:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B17 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B17 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-B18 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-B18:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-B18 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-B18 button:hover {
+        background-color: red;
+      }
+      /* ------select sit C------ */
+    .bth-group-C1{
+      margin-left: -25px;
+        margin-top: 35px;
+        width: 300px;
+        font-family: 'chulanarak';
+    }
+    .btn-group-C01{
+        margin-left: 75px;
+    }
+    .btn-group-C01 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C01:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C01 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-C01 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+    .btn-group-C02{
+        margin-left: 50px;
+    }
+      .btn-group-C02 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C02:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C02 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C02 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-C03{
+        margin-left: 25px;
+    }
+    .btn-group-C03 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C03:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C03 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C03 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-C04 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C04:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C04 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C04 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-C05{
+        margin-left: -25px;
+    }
+    .btn-group-C05 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C05:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C05 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C05 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-C06{
+        margin-left: -30px;
+    }
+    .btn-group-C06 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C06:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C06 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C06 button:hover {
+        background-color: red;
+      }
+
+      /* -------C2------- */
+    .bth-group-C2{
+        margin-left: 300px;
+        width: 900px;
+        font-family: 'chulanarak';
+    }
+    .btn-group-C07{
+        margin-left: -100px;
+    }
+    .btn-group-C07 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C07:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C07 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-C07 button:hover {
+        background-color: red;
+      }
+    /* ---8--- */
+    .btn-group-C08{
+        margin-left: -75px;
+    }
+      .btn-group-C08 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C08:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C08 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C08 button:hover {
+        background-color: red;
+      }
+    /* ---9--- */
+    .btn-group-C09{
+        margin-left: -50px;
+    }
+    .btn-group-C09 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C09:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C09 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C09 button:hover {
+        background-color: red;
+      }
+    /* ---10--- */
+    .btn-group-C10{
+        margin-left: -50px;
+    }
+    .btn-group-C10 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C10:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C10 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C10 button:hover {
+        background-color: red;
+      }
+    /* ---11--- */
+    .btn-group-C11{
+        margin-left: -25px;
+    }
+    .btn-group-C11 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C11:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C11 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C11 button:hover {
+        background-color: red;
+      }
+    /* ---12--- */
+    .btn-group-C12{
+        margin-left: -25px;
+    }
+    .btn-group-C12 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top:10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C12:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C12 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C12 button:hover {
+        background-color: red;
+      }
+/* --------C3------------ */
+      .bth-group-C3{
+        margin-left: 480px;
+        font-family: 'chulanarak';
+
+    }
+    .btn-group-C13 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C13:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C13 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+    /* Add a background color on hover */
+      .btn-group-C13 button:hover {
+        background-color: red;
+      }
+    /* ---2--- */
+      .btn-group-C14 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C14:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C14 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C14 button:hover {
+        background-color: red;
+      }
+    /* ---3--- */
+    .btn-group-C15 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C15:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C15 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C15 button:hover {
+        background-color: red;
+      }
+    /* ---4--- */
+    .btn-group-C16 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C16:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C16 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C16 button:hover {
+        background-color: red;
+      }
+    /* ---5--- */
+    .btn-group-C17 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C17:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C17 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C17 button:hover {
+        background-color: red;
+      }
+    /* ---6--- */
+    .btn-group-C18{
+        margin-left: -55px;
+    }
+
+    .btn-group-C18 button {
+        background-color: #707070; /* Green background */
+        border: 1px solid #fff; /* Green border */
+        color: white; /* White text */
+        padding: 5px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        width: 15px;
+        height: 15px;
+        padding-left: 0px;
+        margin-top: 10px;
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group-C18:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .btn-group-C18 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Add a background color on hover */
+      .btn-group-C18 button:hover {
+        background-color: red;
+      }
+/* -------footer--------- */
+      .center{
+        width: 100px;
+        float: left;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .footer-menu-Theater{
+        float: left;
+        margin-left: 350px;
+        margin-top: -70px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Theater h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-menu-Ticket{
+        float: left;
+        margin-left: 50px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Ticket h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer-menu-Contact{
+        float: left;
+        margin-left: 50px;
+        margin-top: -80px;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        color: #707070;
+    }
+    .footer-menu-Contact h3{
+        font-family: 'chulanarak';
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .contact{
+        float: right;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+    .copyright{
+        float: left;
+        font-family: 'chulanarak';
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 100px;
+        color: #707070;
+
+    }
+}
+
+

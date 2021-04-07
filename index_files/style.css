@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: none;
+}
+body{
+    font-family: 'ChulaNarak',sans-serif;
+    background-color: black;
+}
+body header .navbar-inverse .navbar-nav li a.active{
+    color: #fff;
+    background-color: black;
+}
+body header .navbar-inverse{
+    background-color: black;
+}
+body .logo{
+    width: 88px;
+    height: 56px ;
+    margin-top: 0px;
+    text-align: center;
+    float: right;
+    margin-right: 120px ;
+
+}
+body .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+body .navbar-toggle{
+    float: left;
+}
+body .input-group{
+    float: right;
+}
+body .form-outline{
+    border-radius: 30px;
+}
+body .navbar-inverse .navbar-toggle {
+    border-color: #D1B555;
+}
+body .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #D1B555;
+}
+body .navbar-inverse .navbar-nav>li>a:hover {
+    color: #D1B555;
+}
+.container{
+    background-color: black;
+}
+.footer{
+    background-color: black;
+}
+
+
+/* silder */
+#myCarousel{
+    position: relative;
+    
+}
+.fill{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.carousel{
+    height: 50%;
+}
+.slide-img-1{
+    background-image: url('../images/homepage.jpeg');
+}
+.slide-img-2{
+    background-image: url('../images/Homepage2.jpeg');
+}
+.slide-img-3{
+    background-image: url('../images/Homepage3.jpg');
+}
+.carousel-icon{
+    position: absolute;
+    top: 50%;
+}
+.carousel-inner{
+    text-align: center;
+    margin-top: -40px;
+}
+.carousel-indicators{
+    background-color: none;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'chulanarak';
+    font-size: 30px;
+    background-color: none ;
+}
+.carousel-caption h2{
+    background-color: none;
+}
+/* Ticket */
+.section-header{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin: 30px 0;
+    background-color: black;
+    font-family: 'chulanarak';
+}
+#myCarousel-2{
+    position: relative;
+}
+
+
+/* time&date */
+.backgroud-time{
+    width: 375px;
+    height: 1161px;
+    margin-top: -70px;
+    background-color: black;
+}
+.section-content{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin: 30px 0;
+    background-color: black;
+    font-family: 'chulanarak';
+}
+#myCarousel-3{
+    position: relative;
+}
+.text-time{
+    font-family: 'chulanarak';
+    font-size: 45px;
+    color: white;
+}
+
+.text-time h3{
+    margin-top: -10px;
+}
+.section-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.media{
+    border-bottom: #999 solid 1px;
+    padding: 20px 0;
+    list-style: none;
+}
+.media-icon{
+    float: left;
+    font-size: 36px;
+    color: #A7A7A7;
+    width: 55px;
+    text-align: center;
+    margin-right: 20px;
+}
+.media-body{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.media-text{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #A7A7A7;
+    line-height: 1.3;
+}
+.media-time-1{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-1{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #D1B555;
+    line-height: 1.3;
+}
+.media-time-2{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-2{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.3;
+}
+.media-time-3{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-3{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.3;
+}
+.media-time-4{
+    /* margin: 0 0 10px 70px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.media-date-4{
+    font-size: 28px;
+    font-weight: lighter;
+    color: #fff;
+    line-height: 1.3;
+}
+.section-header-1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin: -20px 0;
+    background-color: black;
+    font-family: 'chulanarak';
+}
+.section-header-1 h2{
+    margin-top: 700px;
+}
+#myCarousel-4{
+    position: relative;
+}
+.section-header-2{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin: 50px 0;
+    background-color: black;
+    font-family: 'chulanarak';
+}
+.item-5{
+    font-family: 'chulanarak';
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.item-5 a{
+    font-family: 'chulanarak';
+    color: #D1B555;
+    text-align: center;
+    font-size: 24px;
+}
+.section-header-3{
+    text-align: center;
+    font-family: 'chulanarak';
+    color: white;
+}
+.section-header-3 p{
+    text-align: center;
+    font-family: 'chulanarak';
+    color: white;
+    font-size: 20px;
+}
+.d-flex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: 'chulanarak';
+    font-size: 20px;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 10px;
+}
+.contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    color: #707070;
+}
+.item-1{
+    font-family: 'chulanarak';
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.item-1 a{
+    font-family: 'chulanarak';
+    color: #D1B555;
+    text-align: center;
+    font-size: 24px;
+}
+.section-header-1{
+    margin-top: 50px;
+}
+
+.pic{
+    margin-top: -350px;
+}
+.item-2{
+    margin-top: 100px;
+}
+
+
+/* Medium devices (tablet 768px and up) */
+@media screen and (min-width:768px){
+    /* slide */
+    body .navbar-brand-center .logo{
+        width: 88px;
+        height: 56px ;
+        margin-top: 0px;
+        /* text-align: center; */
+        float: right;
+        padding-right: 900px ;
+    
+    }
+    .carousel{
+        height: 70%;
+    }
+    .filter-select{
+        display: none;
+    }
+    .filter-wrapper{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .filter-item{
+        display: inline-block;
+        border-radius: 3px;
+        border: 1px solid #eee;
+        list-style: none;
+        background: #fff;
+        margin: 0 5px;
+    }
+    .item-5{
+        color: #999;
+        padding: 8px;
+        display: block;
+    }
+    .item-5:hover{
+        background: none;
+        color: #fff;
+        border-radius: 3px;
+    }
+    .active a{
+        background: #D1B555;
+        color: #fff;
+        border-radius: 3px;
+    }
+    .acting {
+        text-align: center;
+        margin-top: -30px;
+    }
+    .text-acting h3{
+        /* width: 50%; */
+        text-align: center;
+        font-size: 30px;
+    }
+    .text-acting p{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .text-acting a{
+        text-align: center;
+        margin-top: 50px;
+        text-decoration-line: none;
+    }
+    .section-header-1{
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        margin: 0px 0;
+        background-color: black;
+        font-family: 'chulanarak';
+    }
+}
+
+/* Large devices (desktop 1024px and up) */
+@media screen and (min-width:1024px){
+    body .logo{
+        width: 88px;
+        height: 56px ;
+        margin-top: 0px;
+        text-align: center;
+        float: right;
+        margin-right: 400px ;
+    
+    }
+    .section-item{
+        width: 50%;
+        float: left;
+    }
+    .work-item{
+        width: 33.33%;
+    }
+    .thumb-text{
+        font-size:12px ;
+    }
+    .acting {
+        float: left;
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+    .text-acting h3{
+        width: 50%;
+        float: right;
+        margin-top: 40px;
+        margin-right: 50px;
+        font-size: 30px;
+    }
+    .text-acting p{
+        float: right;
+        margin-right: 100px;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .text-acting a{
+        float: right;
+        margin-top: 50px;
+        margin-right: 270px;
+        text-decoration-line: none;
+    }
+    .section-item{
+        float: right;
+        margin-top: -450px;
+    }
+    .text-time a{
+        float: right;
+        margin-top: -520px;
+        margin-right: 100px;
+    }
+    .section-header-1{
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+        margin: 0px ;
+        background-color: black;
+        font-family: 'chulanarak';
+    }
+    .section-header-1 h2{
+        margin-top: 50px;
+    }
+    .d-flex{
+        width: 300px;
+    }
+    .item-2{
+        margin-top: 0px;
+    }
+
+}
